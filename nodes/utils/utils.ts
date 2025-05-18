@@ -131,7 +131,7 @@ export async function postStockEntry(
 				qty: material.required_qty,
 				t_warehouse: t_warehouse,
 			})),
-			docstatus: 0,
+			docstatus: 1,
 		};
 
 		const response = await this.helpers.request({
